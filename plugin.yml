@@ -1,0 +1,4 @@
+name: BossBar
+version: 1.0
+main: me.dennis.bossbar.core.BossBarPlugin
+author: ServersMC, DennisLysenko

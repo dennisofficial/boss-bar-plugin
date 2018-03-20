@@ -1,0 +1,7 @@
+main:
+    ## Boss Bar message
+    message: '&bRanks &aQuests &eLevels &7&more &f&l➣ &e&lHyperGaming'
+    ## Accepted colors: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+    color: 'WHITE'
+    ## Accepted styles: SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20, SOLID
+    style: 'SOLID'
