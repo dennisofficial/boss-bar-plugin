@@ -17,6 +17,7 @@ public class BarManager {
 	
 	public static void setup() {
 		List<String> list = Config.MAIN.MESSAGE();
+		
 		GLOBAL_BAR = Bukkit.createBossBar(list.get(INDEX), BarColor.valueOf(Config.MAIN.COLOR()), BarStyle.valueOf(Config.MAIN.STYLE()));
 		GLOBAL_BAR.setProgress(0d);
 		
