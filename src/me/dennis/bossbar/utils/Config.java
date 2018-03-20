@@ -56,7 +56,7 @@ public class Config {
     	}
     	
     	public static String STYLE() {
-    		return getString("main.color", "SOLID");
+    		return getString("main.style", "SOLID");
     	}
     	
     }
