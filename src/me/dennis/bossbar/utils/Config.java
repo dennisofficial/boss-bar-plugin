@@ -47,8 +47,12 @@ public class Config {
     
     public static class MAIN {
     	
-    	public static String MESSAGE() {
-    		return getString("main.message", "&bRanks &aQuests &eLevels &7&more &f&l➣ &e&lHyperGaming");
+    	public static List<String> MESSAGE() {
+    		return getStringList("main.message");
+    	}
+    	
+    	public static Integer TICKS() {
+    		return getInteger("main.ticks", 30);
     	}
     	
     	public static String COLOR() {

@@ -1,6 +1,16 @@
 main:
     ## Boss Bar message
-    message: '&bRanks &aQuests &eLevels &7&more &f&l➣ &e&lHyperGaming'
+    ## Each line is a message that will animate every X ticks you have set
+    message:
+        - '&bRanks &aQuests &eLevels &7& more &f&l➣ &e&lHyperGaming'
+        - '&cRanks &aQuests &eLevels &7& more &f&l➣ &e&lHyperGaming'
+        - '&bRanks &cQuests &eLevels &7& more &f&l➣ &e&lHyperGaming'
+        - '&bRanks &aQuests &cLevels &7& more &f&l➣ &e&lHyperGaming'
+        - '&bRanks &aQuests &eLevels &c& more &f&l➣ &e&lHyperGaming'
+        - '&bRanks &aQuests &eLevels &7& more &c&l➣ &e&lHyperGaming'
+        - '&bRanks &aQuests &eLevels &7& more &f&l➣ &c&lHyperGaming'
+    ## Boss bar update
+    ticks: 30
     ## Accepted colors: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
     color: 'WHITE'
     ## Accepted styles: SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20, SOLID
