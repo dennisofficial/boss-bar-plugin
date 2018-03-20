@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import me.dennis.bossbar.enums.FileEnum;
 import me.dennis.bossbar.events.PlayerJoin;
 import me.dennis.bossbar.events.PlayerQuit;
+import me.dennis.bossbar.utils.BarManager;
 import me.dennis.bossbar.utils.Config;
 import me.dennis.bossbar.utils.Console;
 
@@ -28,6 +29,9 @@ public class BossBarPlugin extends JavaPlugin {
 
 		// Configuration file
 		Config.setConfig(getConfig());
+		
+		// Setup BarManager
+		BarManager.setup();
 		
 		// Register Plugin Events
 		Bukkit.getPluginManager().registerEvents(new PlayerJoin(), PLUGIN);
